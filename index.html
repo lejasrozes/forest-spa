@@ -3,60 +3,237 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lejasrozes Forest Spa</title>
+    <title>Lejasrozes Forest Spa - Nature's Retreat</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to Lejasrozes Forest Spa</h1>
-        <nav>
-            <ul>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">🌲 Lejasrozes Forest Spa</div>
+            <ul class="nav-menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About Us</a></li>
                 <li><a href="#rooms">Rooms</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#availability">Availability</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="home">
-            <h2>Home</h2>
-            <p>Experience the tranquility of nature at Lejasrozes Forest Spa.</p>
-        </section>
-        <section id="about">
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Lejasrozes Forest Spa</h1>
+            <p>Discover tranquility in nature's embrace</p>
+            <a href="#contact" class="cta-button">Book Now</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
             <h2>About Us</h2>
-            <p>We are dedicated to providing a peaceful retreat in the heart of the forest, with luxurious accommodations and rejuvenating spa services.</p>
-        </section>
-        <section id="rooms">
-            <h2>Rooms</h2>
-            <p>Explore our comfortable and beautifully designed rooms that offer stunning views of the forest.</p>
-        </section>
-        <section id="services">
-            <h2>Services</h2>
-            <p>From spa treatments to guided forest walks, we offer a range of services to enhance your stay.</p>
-        </section>
-        <section id="gallery">
+            <p>Lejasrozes Forest Spa is a sanctuary nestled in the heart of nature. We offer a unique blend of traditional spa treatments and modern wellness practices, all designed to rejuvenate your mind, body, and soul.</p>
+            <p>Our dedicated team of professionals is committed to providing an unforgettable experience that celebrates the healing power of nature.</p>
+        </div>
+    </section>
+
+    <!-- Rooms Section -->
+    <section id="rooms" class="rooms">
+        <div class="container">
+            <h2>Our Rooms</h2>
+            <div class="room-grid">
+                <div class="room-card">
+                    <h3>Deluxe Forest Room</h3>
+                    <p>Enjoy stunning forest views from your private balcony. Features: King-size bed, hot tub, fireplace.</p>
+                    <p class="price">€150/night</p>
+                </div>
+                <div class="room-card">
+                    <h3>Premium Nature Suite</h3>
+                    <p>Spacious suite with direct forest access. Features: Living area, outdoor shower, sauna access.</p>
+                    <p class="price">€200/night</p>
+                </div>
+                <div class="room-card">
+                    <h3>Cozy Woodland Cabin</h3>
+                    <p>Intimate cabin experience. Features: Double bed, kitchenette, wood-burning stove.</p>
+                    <p class="price">€100/night</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <h3>💆 Swedish Massage</h3>
+                    <p>Relax with our signature Swedish massage therapy. 60 min - €60</p>
+                </div>
+                <div class="service-card">
+                    <h3>🧘 Yoga & Meditation</h3>
+                    <p>Find your inner peace with guided sessions. Classes - €25</p>
+                </div>
+                <div class="service-card">
+                    <h3>🌿 Herbal Treatments</h3>
+                    <p>Experience nature-based healing therapies. 90 min - €85</p>
+                </div>
+                <div class="service-card">
+                    <h3>🏞️ Forest Walks</h3>
+                    <p>Guided nature walks through pristine forest trails. €30/person</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
             <h2>Gallery</h2>
-            <p>Check out our beautiful surroundings and luxurious facilities in our gallery.</p>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Get in touch with us for bookings and inquiries.</p>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Send</button>
+            <p>Experience the beauty of Lejasrozes Forest Spa through our collection of images.</p>
+            <div class="gallery-grid">
+                <div class="gallery-item">🌲 Forest View</div>
+                <div class="gallery-item">🏨 Spa Facilities</div>
+                <div class="gallery-item">💆 Massage Room</div>
+                <div class="gallery-item">🌅 Sunset Terrace</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <h2>⭐ Guest Reviews</h2>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-rating">★★★★★</div>
+                    <p>"Absolutely magical experience! The spa treatments were world-class and the forest setting was incredibly peaceful."</p>
+                    <p class="review-author">- Maria K.</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-rating">★★★★★</div>
+                    <p>"Best vacation ever! The staff was wonderful and the rooms were beautifully designed. Will definitely come back!"</p>
+                    <p class="review-author">- John D.</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-rating">★★★★★</div>
+                    <p>"Perfect retreat from city life. The yoga sessions and nature walks were exactly what I needed. Highly recommended!"</p>
+                    <p class="review-author">- Sarah M.</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-rating">★★★★★</div>
+                    <p>"Everything was perfect - the accommodations, the food, the atmosphere. A true sanctuary in nature."</p>
+                    <p class="review-author">- Thomas L.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="location">
+        <div class="container">
+            <h2>🗺️ Our Location</h2>
+            <p>Nestled in the heart of Latvia's most beautiful forests, Lejasrozes Forest Spa is easily accessible yet feels like a hidden gem.</p>
+            <div class="location-info">
+                <h3>Address</h3>
+                <p>Lejasrozes iela 42, Sigulda, Latvia, LV-2150</p>
+                <h3>Contact</h3>
+                <p>📞 Phone: +371 67 123 456</p>
+                <p>📧 Email: info@lejasrozesspa.lv</p>
+                <h3>Hours</h3>
+                <p>Monday - Sunday: 8:00 AM - 8:00 PM</p>
+            </div>
+            <div class="map-placeholder">
+                <p>🗺️ Google Maps integration coming soon!</p>
+                <p>Visit us: Sigulda region, Latvia</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Availability Section -->
+    <section id="availability" class="availability">
+        <div class="container">
+            <h2>📅 Availability & Booking</h2>
+            <div class="booking-info">
+                <h3>Current Availability</h3>
+                <div class="availability-calendar">
+                    <div class="calendar-month">
+                        <h4>March 2026</h4>
+                        <div class="calendar-grid">
+                            <div class="calendar-day available">1 ✓</div>
+                            <div class="calendar-day available">2 ✓</div>
+                            <div class="calendar-day booked">3 ✗</div>
+                            <div class="calendar-day available">4 ✓</div>
+                            <div class="calendar-day available">5 ✓</div>
+                            <div class="calendar-day booked">6 ✗</div>
+                            <div class="calendar-day available">7 ✓</div>
+                            <div class="calendar-day available">8 ✓</div>
+                            <div class="calendar-day available">9 ✓</div>
+                            <div class="calendar-day available">10 ✓</div>
+                            <div class="calendar-day booked">11 ✗</div>
+                            <div class="calendar-day available">12 ✓</div>
+                            <div class="calendar-day available">13 ✓</div>
+                            <div class="calendar-day available">14 ✓</div>
+                            <div class="calendar-day available">15 ✓</div>
+                            <div class="calendar-day available">16 ✓</div>
+                            <div class="calendar-day booked">17 ✗</div>
+                            <div class="calendar-day available">18 ✓</div>
+                            <div class="calendar-day available">19 ✓</div>
+                            <div class="calendar-day available">20 ✓</div>
+                            <div class="calendar-day available">21 ✓</div>
+                            <div class="calendar-day available">22 ✓</div>
+                            <div class="calendar-day available">23 ✓</div>
+                            <div class="calendar-day available">24 ✓</div>
+                            <div class="calendar-day booked">25 ✗</div>
+                            <div class="calendar-day available">26 ✓</div>
+                            <div class="calendar-day available">27 ✓</div>
+                            <div class="calendar-day available">28 ✓</div>
+                            <div class="calendar-day available">29 ✓</div>
+                            <div class="calendar-day available">30 ✓</div>
+                            <div class="calendar-day available">31 ✓</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="booking-legend">
+                    <p><span class="legend-available">✓</span> Available</p>
+                    <p><span class="legend-booked">✗</span> Booked</p>
+                </div>
+            </div>
+            <div class="booking-cta">
+                <h3>Ready to book your retreat?</h3>
+                <p>Contact us today to reserve your dates and start your journey to wellness!</p>
+                <a href="#contact" class="cta-button">Make a Reservation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
             </form>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2026 Lejasrozes Forest Spa. All rights reserved.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Lejasrozes Forest Spa. All rights reserved.</p>
+            <p>Bringing nature and wellness together.</p>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
